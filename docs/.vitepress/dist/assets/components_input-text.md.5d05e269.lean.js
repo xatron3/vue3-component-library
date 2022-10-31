@@ -1,0 +1,1 @@
+import{_ as t,c as s,o as n,a as e}from"./app.d0e36647.js";const m=JSON.parse('{"title":"input-text","description":"","frontmatter":{},"headers":[],"relativePath":"components/input-text.md"}'),a={name:"components/input-text.md"},p=e("",3),o=[p];function l(c,r,i,_,d,u){return n(),s("div",null,o)}const D=t(a,[["render",l]]);export{m as __pageData,D as default};
