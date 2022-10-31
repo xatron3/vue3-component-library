@@ -1,3 +1,4 @@
+import "../assets/index.css";
 import components from "./components";
 
 const plugin = {

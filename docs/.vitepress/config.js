@@ -1,8 +1,16 @@
 module.exports = {
   title: "Vue3 Components Library",
-  base: "/lib/",
   themeConfig: {
     sidebar: [
+      {
+        text: "Getting Started",
+        items: [
+          {
+            text: "Home",
+            link: "/",
+          },
+        ],
+      },
       {
         text: "Components",
         items: [

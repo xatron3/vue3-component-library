@@ -1,5 +1,5 @@
 <template>
-  <input type="text" />
+  <input type="text" class="bg-slate-400" />
 </template>
 <script>
 export default {

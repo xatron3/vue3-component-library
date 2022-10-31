@@ -1,5 +1,8 @@
 import vue from "rollup-plugin-vue";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import postcss from "rollup-plugin-postcss";
+import autoprefixer from "autoprefixer";
+import tailwindcss from "tailwindcss";
 
 export default [
   {
@@ -14,6 +17,14 @@ export default [
         file: "dist/library.js",
       },
     ],
-    plugins: [vue(), peerDepsExternal()],
+    plugins: [
+      vue(),
+      peerDepsExternal(),
+      postcss({
+        extensions: [".css", ".module.css"],
+
+        plugins: [autoprefixer(), tailwindcss()],
+      }),
+    ],
   },
 ];
